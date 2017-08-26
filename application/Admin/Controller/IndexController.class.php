@@ -8,6 +8,7 @@ class IndexController extends Controller
     //主页
     public function index()
     {
+
         $this->display();
     }
 

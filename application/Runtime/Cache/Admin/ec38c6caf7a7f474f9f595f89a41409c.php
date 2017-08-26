@@ -10,10 +10,10 @@ if (window.top != window) {
 </script>
 
 <frameset rows="76,*" framespacing="0" border="0">
-    <frame src="/SHOP/admin.php/Index/top.html" id="header-frame" name="header-frame" frameborder="no" scrolling="no">
+    <frame src="top.html" id="header-frame" name="header-frame" frameborder="no" scrolling="no">
     <frameset cols="180,*" framespacing="0" border="0" id="frame-body">
-        <frame src="/SHOP/admin.php/Index/menu.html" id="menu-frame" name="menu-frame" frameborder="no">
-        <frame src="/SHOP/admin.php/Index/main.html" id="main-frame" name="main-frame" frameborder="no">
+        <frame src="menu.html" id="menu-frame" name="menu-frame" frameborder="no">
+        <frame src="main.html" id="main-frame" name="main-frame" frameborder="no">
     </frameset>
 </frameset>
 </head>

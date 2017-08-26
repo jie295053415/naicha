@@ -1,7 +1,7 @@
 <?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>ECSHOP 管理中心 - 商品列表 </title>
+    <title>SHOP 管理中心 - <?php echo $_page_title?> </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="/SHOP/Public/Admin/Styles/general.css" rel="stylesheet" type="text/css" />
     <link href="/SHOP/Public/Admin/Styles/main.css" rel="stylesheet" type="text/css" />
@@ -11,7 +11,7 @@
     <?php if($_page_btn_name){?>
         <span class="action-span"><a href="<?php echo $_page_btn_link?>"><?php echo $_page_btn_name?></a></span>
     <?php }?>
-    <span class="action-span1"><a href="/SHOP/admin.php">管理中心</a></span>
+    <span class="action-span1"><a href="/SHOP/index.php">管理中心</a></span>
     <span id="search_id" class="action-span1"> - <?php echo $_page_title?> </span>
     <div style="clear:both"></div>
 </h1>
@@ -23,16 +23,30 @@
 
 <div class="form-div">
     <!--搜索表单-->
-    <form action="/SHOP/admin.php/Goods/lst" method="get" name="searchForm">
+    <form action="/SHOP/index.php/Admin/Goods/lst" method="get" name="searchForm">
         <p>
-            所在品牌<?php buildSelect('brand', 'brand_id', 'id', 'brand_name',I('get.brand_id')); ?>
+            分&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;类：
+            <?php $cat_id = I('get.catId'); ?>
+            <select name="cat_id">
+                <option value="">选择分类</option>
+                <?php foreach($catData as $v){ if($v['id'] == $cat_id){ $select = 'selected="selected"'; }else{ $select = ''; } ?>
+                <option <?php echo $select; ?> value="<?php echo $v['id'];?>">
+                    <?php echo str_repeat('-',8*$v['level']).$v['cat_name']; ?>
+                </option>
+                <?php } ?>
+            </select>
+        </p>
+
+        <p>
+            所在品牌： <?php buildSelect('brand', 'brand_id', 'id', 'brand_name',I('get.brand_id')); ?>
             <!--TODO 选品牌，一点搜索 还是选定品牌-->
         </p>
         <p>
-            商品名称：<input value="<?php echo I('get.gn'); ?>" type="text" name="gn" size="60" />
+            商品名称： <input value="<?php echo I('get.gn'); ?>" type="text" name="gn" size="60" />
         </p>
         <p>
-            价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格：从<input value="<?php echo I('get.fp'); ?>" type="text" name="fp" size="8" />
+            价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;格：
+            从<input value="<?php echo I('get.fp'); ?>" type="text" name="fp" size="8" />
             到<input value="<?php echo I('get.tp'); ?>" type="text" name="tp" size="8" />
         </p>
         <p>
@@ -65,6 +79,8 @@
         <table cellpadding="3" cellspacing="1">
             <tr>
                 <th>编号</th>
+                <th>主分类</th>
+                <th>扩展分类</th>
                 <th>品牌</th>
                 <th>商品名称</th>
                 <th>logo</th>
@@ -76,14 +92,16 @@
             </tr>
                 <?php foreach($data as $k=>$v){?>
                 <tr class="tron">
-                    <td align="center"><?php echo $v['id'];?></td>
-                    <td align="center"><?php echo $v['brand_name']?></td>
+                    <td align="center"><?php echo $v['id']; ?></td>
+                    <td align="center"><?php echo $v['cat_name']; ?></td>
+                    <td align="center"><?php echo $v['ext_cat_name']; ?></td>
+                    <td align="center"><?php echo $v['brand_name']; ?></td>
                     <td align="center" class="first-cell"><?php echo $v['goods_name']; ?></td>
                     <td align="center"><?php showImage($v['sm_logo']); ?></td>
-                    <td align="center"><?php echo $v['market_price']?></td>
-                    <td align="center"><?php echo $v['shop_price']?></td>
-                    <td align="center"><?php echo $v['is_on_sale']?></td>
-                    <td align="center"><?php echo $v['addtime']?></td>
+                    <td align="center"><?php echo $v['market_price']; ?></td>
+                    <td align="center"><?php echo $v['shop_price']; ?></td>
+                    <td align="center"><?php echo $v['is_on_sale']; ?></td>
+                    <td align="center"><?php echo $v['addtime']; ?></td>
                     <td align="center">
                         <a href="<?php echo U('edit?id='.$v['id']); ?>">修改</a>
                         <a onclick="return confirm('确定要删除吗？');" href="<?php echo U('delete?id='.$v['id']); ?>">删除</a>
@@ -128,11 +146,20 @@
     $("#ta").datetimepicker();
 </script>
 <!-- 引入行高亮显示 -->
-<script type="text/javascript" src="/SHOP/public/Admin/Js/tron.js"></script>
+<script type="text/javascript" src="/SHOP/public/Admin/Js/tron.js">
+    $(".tron").mouseover(function(){
+        // 修改这个TR里每个TD的背景色
+        $(this).find("td").css('backgroundColor', '#DEE7F5');
+    });
+    $(".tron").mouseout(function(){
+        // 修改这个TR里每个TD的背景色
+        $(this).find("td").css('backgroundColor', '#FFF');
+    });
+</script>
 
 <!-- 网页脚部 -->
 <div id="footer">
     共执行 7 个查询，用时 0.028849 秒，Gzip 已禁用，内存占用 3.219 MB<br />
-    版权所有 &copy; 2005-2012 广州奶茶信息科技有限公司，并保留所有权利。</div>
+    版权所有 &copy; 2015-2017 广州奶茶信息科技有限公司，并保留所有权利。</div>
 </body>
 </html>

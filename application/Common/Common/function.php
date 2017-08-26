@@ -49,8 +49,6 @@ function buildSelect($tableName, $selectName, $valueFieldName, $textFieldName, $
     echo $select;
 }
 
-
-
 /**
  * 上传图片并生成缩略图
  * 用法：

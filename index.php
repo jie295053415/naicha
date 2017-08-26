@@ -6,8 +6,6 @@
  * Time: 20:12
  */
 
-//跳后台
-header('location:admin.php/Index/index');
 
 
 //项目目录路径

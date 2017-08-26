@@ -133,11 +133,11 @@
 <div id="menu-div">
     <ul>
         <li class="fix-spacel">&nbsp;</li>
-        <li><a href="/SHOP/admin.php/Index/index.html" target="main-frame">起始页</a></li>
-        <li><a href="/SHOP/admin.php/Goods/lst.html" target="main-frame">商品列表</a></li>
-        <li><a href="/SHOP/admin.php/Order/orderList.html" target="main-frame">订单列表</a></li>
-        <li><a href="/SHOP/admin.php/Comment/commentList" target="main-frame">用户评论</a></li>
-        <li><a href="/SHOP/admin.php/User/userList.html" target="main-frame">会员列表</a></li>
+        <li><a href="<?php echo U('Index/index');?>" target="main-frame">起始页</a></li>
+        <li><a href="<?php echo U('Goods/lst');?>" target="main-frame">商品列表</a></li>
+        <li><a href="/SHOP/index.php/Order/orderList.html" target="main-frame">订单列表</a></li>
+        <li><a href="/SHOP/index.php/Comment/commentList" target="main-frame">用户评论</a></li>
+        <li><a href="/SHOP/index.php/User/userList.html" target="main-frame">会员列表</a></li>
         <li class="fix-spacer">&nbsp;</li>
     </ul>
     <br class="clear" />
