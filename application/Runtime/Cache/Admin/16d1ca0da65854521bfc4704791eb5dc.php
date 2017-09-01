@@ -60,7 +60,7 @@
         </p>
     </div>
     <div id="tabbody-div">
-        <form enctype="multipart/form-data" action="/SHOP/index.php/Admin/Goods/edit/id/53.html" method="post">
+        <form enctype="multipart/form-data" action="/SHOP/index.php/Admin/Goods/edit/id/4.html" method="post">
             <input type="hidden" name="id" value="<?php echo $data['id']; ?>" />
             <!-- 基本信息 -->
             <table width="90%" class="tab_table" align="center">
@@ -97,6 +97,7 @@
                                 </select><br />
                             </li>
                             <?php }?>
+
                         <!-- 否则有一个下拉框可以进行克隆 -->
                         <?php }else{ ?>
                             <li>
@@ -111,7 +112,7 @@
                             </li>
                         <?php } ?>
                         </ul>
-
+                        <span style="color:#F00;font-size:16px;font-weight:bold;">如果要删除某个分类请设置为“选择分类”即可！</span>
                     </td>
                 </tr>
                 <tr>
@@ -184,21 +185,25 @@
                 <tr>
                     <td>
                         <ul id="attr_list">
-                            <?php foreach($gaData as $k=>$v){ ?>
+                            <?php
+ $attrId = array(); foreach ($gaData as $k => $v){ if(in_array($v['attr_id'],$attrId)){ $opt = '-'; }else{ $opt = '+'; $attrId[] = $v['attr_id']; } ?>
                                 <li>
+                                    <input type="hidden" name="goods_attr_id[]" value="<?php echo $v['id']; ?>" />
+                                    <!-- 输出属性的名称 -->
                                     <?php if($v['attr_type'] == '可选'){ ?>
-                                        <a onclick="addNewAttr(this)" href="#">[+]</a>
+                                        <a onclick="addNewAttr(this)" href="#">[<?php echo $opt; ?>]</a>
                                     <?php }?>
                                     <?php echo $v['attr_name']; ?>：
+                                    <!-- 输出属性的值，判断是否为可选状态 -->
                                     <?php if($v['attr_option_values']){ $attr = explode(',',$v['attr_option_values']); ?>
-                                        <select>
+                                        <select name="attr_value[<?php echo $v['attr_id']; ?>][]">
                                             <option value="">请选择</option>
-                                            <?php foreach($attr as $k1=>$v1){?>
-                                                <option value="<?php echo $v1; ?>"><?php echo $v1; ?></option>
+                                            <?php foreach ($attr as $k1 => $v1){ if($v1 == $v['attr_value']){ $select = 'selected="selected"'; }else{ $select = ''; } ?>
+                                                <option <?php echo $select; ?> value="<?php echo $v1; ?>"><?php echo $v1; ?></option>
                                             <?php } ?>
                                         </select>
                                     <?php }else{ ?>
-                                        <input type="text" name="" value="<?php echo $v['attr_value']?>" />
+                                        <input type="text" name="attr_value[<?php echo $v['attr_id']; ?>][]" value="<?php echo $v['attr_value']; ?>" />
                                     <?php } ?>
                                 </li>
                             <?php } ?>
@@ -342,13 +347,35 @@
         var li = $(a).parent();
         if ($(a).text() == '[+]') {
             var newLi = li.clone();
+            //去掉选中状态
+            newLi.find("option:selected").removeAttr('selected');
+            //把克隆出来的隐藏域的ID清空
+            newLi.find("input[name='goods_attr_id[]']").val("");
             // +变-
             newLi.find("a").text('[-]');
             // 新的放在li后面
             li.after(newLi);
         }
-        else
-            li.remove();
+        else{
+            //先获取这个属性值的ID
+            var gaid = li.find("input[name='goods_attr_id[]']").val();
+            if(gaid == ''){
+                li.remove();
+            }else{
+                if(confirm('如果删除了这个属性，那么想过的库存量数据也会被一起删除，确定要删除吗？')){
+                    $.ajax({
+                        type : "GET",
+                        url : "<?php echo U('ajaxDelAttr?goods_id='.$data['id'],'',FALSE); ?>/gaid/"+gaid,
+                        success : function(data){
+                            //先把数据库的数据删了，然后在移除页面的li
+                            li.remove();
+                        }
+                    });
+                }
+            }
+
+        }
+
     }
 </script>
 

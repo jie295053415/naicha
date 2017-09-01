@@ -1,8 +1,7 @@
 <?php
 namespace Admin\Controller;
-use Think\Controller;
 
-class CategoryController extends Controller
+class CategoryController extends BaseController
 {
     //分类列表页
     public function lst(){

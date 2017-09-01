@@ -7,13 +7,10 @@
  */
 
 
-
+//判断PHP版本
+if(version_compare(PHP_VERSION,'5.3.0','<')) die('require PHP > 5.3.0 !');
 //项目目录路径
 define('APP_PATH','application/');
-//绑定前台模块
-//define('BIND_MODULE','Home');
-//开启安全模式
-//define('BUILD_DIR_SECURE','false');
 //启动调试模式
 define('APP_DEBUG','true');
 //引入tp

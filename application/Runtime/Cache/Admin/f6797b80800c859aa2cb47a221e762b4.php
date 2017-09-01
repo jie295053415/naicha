@@ -5,6 +5,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link href="/SHOP/Public/Admin/Styles/general.css" rel="stylesheet" type="text/css" />
     <link href="/SHOP/Public/Admin/Styles/main.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="/SHOP/Public/umeditor1_2_2-utf8-php/third-party/jquery.min.js"></script>
 </head>
 <body>
 <h1>
@@ -103,6 +104,7 @@
                     <td align="center"><?php echo $v['is_on_sale']; ?></td>
                     <td align="center"><?php echo $v['addtime']; ?></td>
                     <td align="center">
+                        <a href="<?php echo U('goods_number?id='.$v['id']); ?>">库存量</a>
                         <a href="<?php echo U('edit?id='.$v['id']); ?>">修改</a>
                         <a onclick="return confirm('确定要删除吗？');" href="<?php echo U('delete?id='.$v['id']); ?>">删除</a>
                     </td>

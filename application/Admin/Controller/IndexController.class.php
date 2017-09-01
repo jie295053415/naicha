@@ -1,9 +1,7 @@
 <?php
 namespace Admin\Controller;
 
-use Think\Controller;
-
-class IndexController extends Controller
+class IndexController extends BaseController
 {
     //主页
     public function index()

@@ -2,21 +2,621 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc7cca5-bb63-4c19-ad1d-dffb51bea2b9" name="Default" comment="Rejected commit: Default (4)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/09bc6e51821b019c4f0ae33fb82e69b5.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/76e50fd0225a3f64fab2cc222b6f8076.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/07731b4aeea8aa764cf16469422de441.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/2bfea12b04796732eb4b8b3052bbedbd.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/90bc5daf16a06c9f1e61b33cc8a6095c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/9c3065025fbe8f9e9c385299c721eddf.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/a5cb5cea9f03efb4ee117ad832d62863.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/e1761b1013db5b65e1c443aa565454b3.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/f649451358e9d25f272e31c9108e84ea.php" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Brand/2017-08-26/59a17494d7451.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/59a16fba3cee4.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_0_59a16fba3cee4.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_1_59a16fba3cee4.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_2_59a16fba3cee4.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_3_59a16fba3cee4.jpeg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-27/59a294a60d667.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-27/thumb_0_59a294a60d667.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-27/thumb_1_59a294a60d667.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-27/thumb_2_59a294a60d667.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-27/thumb_3_59a294a60d667.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Controller/AdminController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Controller/BaseController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Controller/LoginController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Controller/PrivilegeController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Controller/RoleController.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Model/AdminModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Model/LoginModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Model/PrivilegeModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Model/RoleModel.class.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Admin/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Admin/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Admin/lst.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Login/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Privilege/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Privilege/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Privilege/lst.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Role/add.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Role/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Role/lst.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Gii/Table_configs/p39_admin.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Gii/Table_configs/p39_privilege.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Gii/Table_configs/p39_role.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Home/Common/layout.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Home/View/Common/help.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Home/View/Common/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Home/View/Index/goods.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/27d7295cbe588ef6c87206eb8b9f33ab.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/2bfea12b04796732eb4b8b3052bbedbd.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/3fdad10d6999855067b3aadc443fdb45.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/4a825ad5469eb7afda3b692c3db8be37.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/53559d675e0cc57d9f0c89e5a7aead00.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/9c3065025fbe8f9e9c385299c721eddf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/a07a5ff6f7a0977e7f072ca54f0bddff.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/a91c9b904f6fdc0b26266f9709c1289f.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/c185eb00a2e305ac4beeb3ffc0b8b49b.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/c93a3414f501d0708d458c94dec2957d.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/cd5dfafecc18fe1d91a7997a86d77cdf.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/d4e48db26fcd5aaa8ed832368871134b.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/e1761b1013db5b65e1c443aa565454b3.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/f243d4fc2aed68a57071f0530b11d55f.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/f649451358e9d25f272e31c9108e84ea.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/fd0cdf7d3e79817cfc4ba67731a1a30c.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Home/Common/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Home/View/public/footer.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/application/Home/View/public/header.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/225-54.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/8800_110.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/Account_32-2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/LOGO2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/ads03.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/ajax_loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/area_link.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/arrow_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/arrow_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/arrowhead.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/bag_close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/bag_open.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/banner0.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/banner1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/banner2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/base.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/base1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/basebg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/basetbb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/basetbg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/basetbg1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/bg_repx.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/bgx.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/book_open.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/brand.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/brand_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/btn_close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/btn_drop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/btn_maximize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/btn_minimize.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/button_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/by_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/cart.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/close.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/closeIcon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/color_selecter.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/confirm.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/detail_botbg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/detail_footer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/detail_header.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/dot.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/ecshop_logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/empty.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/error.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/filecheck.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/help03.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/help06.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/home.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/home_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_account.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_add.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_copy.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_docs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_drop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_edit.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_js.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_output.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_priv.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_search.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_send_bonus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_title.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_trash.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/icon_view.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/img_ser.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/infoheader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/information.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/line_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/login.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/login03.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/login_line.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/logo21.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/lowerbody.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/member_shop.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/menu_arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/menu_minus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/menu_plus.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/message.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/nav_03.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/nav_06.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/new.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/new_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/no.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/notice.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/num.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/online.swf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/online.wav" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/picb.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/picb2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/picb_hs.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/picc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/picflag.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/picnoflag.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/sale.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/sale_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/shop_tel.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/sort_asc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/sort_desc.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/stepnum.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/succ.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/tel1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/tel2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/th_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/top_icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/top_loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/top_min.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/typedot.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/typehome.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/typehome_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/warning.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/warning_small.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Admin/Styles/Images/yes.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/20120209D.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/20130415i.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/acer.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/acer4739.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/ad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/arrow.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/beian.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/bg1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/bg2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/bg_hotsale.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/bg_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/bg_tit_home.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/bg_xiala.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/btn_check.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/btn_continue.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/btn_fillin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/canon.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/cart_001.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/cart_goods1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/cart_goods2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/cart_goods3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/checkcode1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/checkcode2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/crazy1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/crazy2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/crazy3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/crazy4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/crazy5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/dell.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/desc1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/desc2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/desc3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/desc4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/desc5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/desc6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/desc7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/desc8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/desc9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/dlink.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/flow_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/flow_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/fujitsu.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/goods1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/goods2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/goods3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/goods4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/goods5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/goods6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/guess1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/guess2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/guess3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/holiday.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/hot1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/hot2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/hot3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/hp.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/hpG4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/icon_cologin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/icon_promotion.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/index_slide1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/index_slide2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/index_slide3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/index_slide4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/index_slide5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/index_slide6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/intel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/jdleft.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/kexin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/lenove.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/lh531.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/list_hot1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/list_hot2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/list_hot3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/login_ad.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/login_img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/login_word.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/lottery.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/new1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/new2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/new3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/newicon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/newicon1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/newicon201301028.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/notebook.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/one4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/one5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/order1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/order2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/order3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/order_btn.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/order_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/p-btns.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/police.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_l1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_l2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_l3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_l4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_l5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_l6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_l7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_l8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_l9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_m1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_m2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_m3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_m4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_m5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_m6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_m7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_m8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_m9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_s1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_s2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_s3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_s4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_s5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_s6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_s7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_s8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/preview_s9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/qinghuax2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/recommend1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/recommend2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/recommend3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/reg_mobile.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/regist_img.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/relate_view1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/relate_view2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/relate_view3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/relate_view4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/relate_view5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/samsung.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/samsung.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/samsung6800.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/sanguo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/scenic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/seagate.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/sort_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/taohua.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/tb_th.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/thinkpad e420.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/tit_regist.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/user1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/user2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/user3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/view_list1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/view_list2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/view_list3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/viewsonic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/wulin.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/images/xin.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/js/cart1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/js/cart2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/js/goods.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/js/header.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/js/home.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/js/jquery-1.8.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/js/jqzoom-core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/js/list.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/address.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/bottomnav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/cart.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/common.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/fillin.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/global.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/goods.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/header.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/home.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/jqzoom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/list.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/order.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/success.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Home/Index/style/user.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Brand/2017-08-13/5990098d2a787.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Brand/2017-08-14/5990f40b8c8ed.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Brand/2017-08-14/59919052717c1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Brand/2017-08-16/599379fa785e7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c44946988e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c44d8cbaca.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c4b91b4b6d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c4bfa84090.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c4c1adf1da.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c4cee0f635.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c4d3bec9f6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c4d51c2ae4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c4db6baee7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c4e6490661.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c4e717e5db.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c4ee6d49e3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c689e080fa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c68eecf593.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c6b360bba9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c6b40c90fb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/598c6b4b64975.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c44946988e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c44d8cbaca.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c4b91b4b6d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c4bfa84090.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c4c1adf1da.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c4cee0f635.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c4d3bec9f6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c4d51c2ae4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c4db6baee7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c4e6490661.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c4e717e5db.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c4ee6d49e3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c689e080fa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c68eecf593.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c6b360bba9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c6b40c90fb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/big_598c6b4b64975.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c44946988e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c44d8cbaca.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c4b91b4b6d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c4bfa84090.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c4c1adf1da.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c4cee0f635.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c4d3bec9f6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c4d51c2ae4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c4db6baee7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c4e6490661.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c4e717e5db.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c4ee6d49e3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c689e080fa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c68eecf593.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c6b360bba9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c6b40c90fb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mbig_598c6b4b64975.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c44946988e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c44d8cbaca.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c4b91b4b6d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c4bfa84090.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c4c1adf1da.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c4cee0f635.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c4d3bec9f6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c4d51c2ae4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c4db6baee7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c4e6490661.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c4e717e5db.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c4ee6d49e3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c689e080fa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c68eecf593.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c6b360bba9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c6b40c90fb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/mid_598c6b4b64975.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c44946988e.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c44d8cbaca.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c4b91b4b6d.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c4bfa84090.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c4c1adf1da.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c4cee0f635.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c4d3bec9f6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c4d51c2ae4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c4db6baee7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c4e6490661.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c4e717e5db.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c4ee6d49e3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c689e080fa.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c68eecf593.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c6b360bba9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c6b40c90fb.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-10/sm_598c6b4b64975.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/598ea5e133b01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/598ea95588488.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/598ebb241ee45.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/598ebbd5b0bdc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/598ebe08c70ec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/big_598ea5e133b01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/big_598ea95588488.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/big_598ebb241ee45.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/big_598ebbd5b0bdc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/big_598ebe08c70ec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/mbig_598ea5e133b01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/mbig_598ea95588488.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/mbig_598ebb241ee45.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/mbig_598ebbd5b0bdc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/mbig_598ebe08c70ec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/mid_598ea5e133b01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/mid_598ea95588488.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/mid_598ebb241ee45.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/mid_598ebbd5b0bdc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/mid_598ebe08c70ec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/sm_598ea5e133b01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/sm_598ea95588488.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/sm_598ebb241ee45.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/sm_598ebbd5b0bdc.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-12/sm_598ebe08c70ec.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/598f7adca42a8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/598f7b53e7be8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/598f7c30087f9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/598f7d560fbe9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/598f848e8e89c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/598fea7657217.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/598feb27e7199.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/598feb928bc55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/5990106b10b53.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/big_598f7adca42a8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/big_598f7b53e7be8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/big_598f7c30087f9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/big_598f7d560fbe9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/big_598f848e8e89c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/mbig_598f7adca42a8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/mbig_598f7b53e7be8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/mbig_598f7c30087f9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/mbig_598f7d560fbe9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/mbig_598f848e8e89c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/mid_598f7adca42a8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/mid_598f7b53e7be8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/mid_598f7c30087f9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/mid_598f7d560fbe9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/mid_598f848e8e89c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/sm_598f7adca42a8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/sm_598f7b53e7be8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/sm_598f7c30087f9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/sm_598f7d560fbe9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/sm_598f848e8e89c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_0_598fea7657217.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_0_598feb27e7199.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_0_598feb928bc55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_0_5990106b10b53.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_1_598fea7657217.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_1_598feb27e7199.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_1_598feb928bc55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_1_5990106b10b53.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_2_598fea7657217.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_2_598feb27e7199.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_2_598feb928bc55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_2_5990106b10b53.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_3_598fea7657217.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_3_598feb27e7199.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_3_598feb928bc55.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-13/thumb_3_5990106b10b53.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/59944e4d8fbb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/59945c9c78e86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/59945c9d19661.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/59945e9a66c22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/59945ec388788.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_0_59944e4d8fbb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_0_59945c9c78e86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_0_59945c9d19661.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_0_59945e9a66c22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_0_59945ec388788.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_1_59944e4d8fbb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_1_59945c9c78e86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_1_59945c9d19661.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_1_59945e9a66c22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_1_59945ec388788.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_2_59944e4d8fbb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_2_59945c9c78e86.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_2_59945c9d19661.GIF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_2_59945e9a66c22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_2_59945ec388788.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_3_59944e4d8fbb9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_3_59945e9a66c22.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/5996b391169dc.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/5996b3940ea4b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_0_5996b391169dc.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_0_5996b3940ea4b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_1_5996b391169dc.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_1_5996b3940ea4b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_2_5996b391169dc.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_2_5996b3940ea4b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_3_5996b391169dc.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/59982361c61ae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/599823665c9fe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/59982367203e0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/59982dfa5436f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/59982e54c6f5c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/59982ffd1f122.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/5998304d97775.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_59982361c61ae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_599823665c9fe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_59982367203e0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_59982dfa5436f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_59982e54c6f5c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_59982ffd1f122.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_5998304d97775.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_59982361c61ae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_599823665c9fe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_59982367203e0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_59982dfa5436f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_59982e54c6f5c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_59982ffd1f122.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_5998304d97775.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_59982361c61ae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_599823665c9fe.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_59982367203e0.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_59982dfa5436f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_59982e54c6f5c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_59982ffd1f122.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_5998304d97775.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_3_59982361c61ae.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_3_59982dfa5436f.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_3_59982e54c6f5c.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_3_59982ffd1f122.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_3_5998304d97775.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/5998d4268bae8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/5998d42964458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_0_5998d4268bae8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_0_5998d42964458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_1_5998d4268bae8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_1_5998d42964458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_2_5998d4268bae8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_2_5998d42964458.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_3_5998d4268bae8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/59a0b73890240.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_0_59a0b73890240.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_1_59a0b73890240.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_2_59a0b73890240.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_3_59a0b73890240.jpeg" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Conf/config.php" afterPath="$PROJECT_DIR$/application/Admin/Conf/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/AttributeController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/AttributeController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/BrandController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/BrandController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/CategoryController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/CategoryController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/MemberLevelController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/MemberLevelController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/TypeController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/TypeController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php" afterPath="$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Goods/edit.html" afterPath="$PROJECT_DIR$/application/Admin/View/Goods/edit.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Goods/lst.html" afterPath="$PROJECT_DIR$/application/Admin/View/Goods/lst.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Index/main.html" afterPath="$PROJECT_DIR$/application/Admin/View/Index/main.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Index/menu.html" afterPath="$PROJECT_DIR$/application/Admin/View/Index/menu.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Index/top.html" afterPath="$PROJECT_DIR$/application/Admin/View/Index/top.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/layout.html" afterPath="$PROJECT_DIR$/application/Admin/View/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Home/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/application/Home/Controller/IndexController.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Home/View/Index/index.html" afterPath="$PROJECT_DIR$/application/Home/View/Index/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/09bc6e51821b019c4f0ae33fb82e69b5.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/09bc6e51821b019c4f0ae33fb82e69b5.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/16d1ca0da65854521bfc4704791eb5dc.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/16d1ca0da65854521bfc4704791eb5dc.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/2843b2bbe7fab10da2e7633d25ea17a1.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/2843b2bbe7fab10da2e7633d25ea17a1.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/373bbcfeb28bdb18270c33d3fd1c0cf1.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/373bbcfeb28bdb18270c33d3fd1c0cf1.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/ec38c6caf7a7f474f9f595f89a41409c.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/ec38c6caf7a7f474f9f595f89a41409c.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/e963dd48db15a29e189a9c4de92b9cee.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/e963dd48db15a29e189a9c4de92b9cee.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Admin/f6797b80800c859aa2cb47a221e762b4.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Admin/f6797b80800c859aa2cb47a221e762b4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Gii/61542434d4d3fd69b9aa38ee048449c7.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Gii/61542434d4d3fd69b9aa38ee048449c7.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Runtime/Cache/Home/0e9f9964b50249c273d1dbef3ee7dd51.php" afterPath="$PROJECT_DIR$/application/Runtime/Cache/Home/0e9f9964b50249c273d1dbef3ee7dd51.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop_question.txt" afterPath="$PROJECT_DIR$/shop_question.txt" />
     </list>
     <list id="77357c18-1b16-477d-bbcf-b64d5c5c5b3b" name="Rejected commit: Default" comment="" />
     <list id="7158d85a-cfff-4b55-ae4b-51e408e6ed2d" name="Rejected commit: Default (2)" comment="" />
@@ -27,132 +627,27 @@
     <list id="568397f9-9acb-49bf-899a-55a447f1ec92" name="Rejected commit: Default (6)" comment="Rejected commit: Default (4)" />
     <list id="16b5e58f-639b-4887-ad5f-0f1961e4e900" name="Rejected commit: Default (7)" comment="Rejected commit: Default (4)" />
     <list id="697407b9-dfa8-466d-98f3-afdea09d9bcc" name="Rejected commit: Default (8)" comment="Rejected commit: Default (4)" />
-    <list id="5683da4d-d3e8-4bdd-8dea-ab9cdd9cb6d8" name="Rejected commit: Default (9)" comment="Rejected commit: Default (4)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Controller/TypeController.class.php" />
-    </list>
+    <list id="5683da4d-d3e8-4bdd-8dea-ab9cdd9cb6d8" name="Rejected commit: Default (9)" comment="Rejected commit: Default (4)" />
     <list id="58db316d-f513-482e-bb33-babd0dcaa4bc" name="Rejected commit: Default (10)" comment="Rejected commit: Default (4)" />
     <list id="8a39e1a9-74df-4e93-885f-2771a509d3b4" name="Rejected commit: Rejected commit: Default (8)" comment="Rejected commit: Default (4)" />
     <list id="9ff0f3d4-044c-48ed-82a1-d4cf4a03bd1d" name="Rejected commit: Default (11)" comment="Rejected commit: Default (4)" />
-    <list id="1413202b-1bd2-431d-8965-3d4c351a531f" name="Rejected commit: Default (12)" comment="Rejected commit: Default (4)">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Brand/2017-08-16/599379fa785e7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/59944e4d8fbb9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/59945c9c78e86.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/59945c9d19661.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/59945e9a66c22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/59945ec388788.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_0_59944e4d8fbb9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_0_59945c9c78e86.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_0_59945c9d19661.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_0_59945e9a66c22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_0_59945ec388788.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_1_59944e4d8fbb9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_1_59945c9c78e86.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_1_59945c9d19661.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_1_59945e9a66c22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_1_59945ec388788.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_2_59944e4d8fbb9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_2_59945c9c78e86.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_2_59945c9d19661.GIF" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_2_59945e9a66c22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_2_59945ec388788.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_3_59944e4d8fbb9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-16/thumb_3_59945e9a66c22.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/5996b391169dc.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/5996b3940ea4b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_0_5996b391169dc.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_0_5996b3940ea4b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_1_5996b391169dc.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_1_5996b3940ea4b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_2_5996b391169dc.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_2_5996b3940ea4b.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-18/thumb_3_5996b391169dc.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/59982361c61ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/59982367203e0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/59982dfa5436f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/59982e54c6f5c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/59982ffd1f122.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/5998304d97775.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_59982361c61ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_599823665c9fe.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_59982367203e0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_59982dfa5436f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_59982e54c6f5c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_59982ffd1f122.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_0_5998304d97775.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_59982361c61ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_59982367203e0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_59982dfa5436f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_59982e54c6f5c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_59982ffd1f122.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_5998304d97775.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_59982361c61ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_59982367203e0.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_59982dfa5436f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_59982e54c6f5c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_59982ffd1f122.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_5998304d97775.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_3_59982361c61ae.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_3_59982dfa5436f.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_3_59982e54c6f5c.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_3_59982ffd1f122.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_3_5998304d97775.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/5998d4268bae8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/5998d42964458.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_0_5998d4268bae8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_0_5998d42964458.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_1_5998d4268bae8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_1_5998d42964458.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_2_5998d4268bae8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_2_5998d42964458.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-20/thumb_3_5998d4268bae8.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/59a0b73890240.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_0_59a0b73890240.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_1_59a0b73890240.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_2_59a0b73890240.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-26/thumb_3_59a0b73890240.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Controller/AttributeController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Controller/CategoryController.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Model/AttributeModel.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Model/CategoryModel.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/Model/TypeModel.class.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Attribute/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Attribute/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Attribute/lst.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Category/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Category/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Category/lst.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Type/add.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Type/edit.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Type/lst.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Gii/Table_configs/p39_attribute.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Gii/Table_configs/p39_type.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/fenlei.sql" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-14/thumb_0_599190863d677.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-14/thumb_2_599190863d677.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list id="1413202b-1bd2-431d-8965-3d4c351a531f" name="Rejected commit: Default (12)" comment="Rejected commit: Default (4)" />
+    <list id="cf5528f0-c64a-404d-bace-13a53748415c" name="Rejected commit: Default (13)" comment="Rejected commit: Default (4)" />
+    <list id="20b0d536-0f15-4491-8d01-7bef134e0f0e" name="Rejected commit: Default (14)" comment="Rejected commit: Default (4)" />
+    <list id="d5532b29-2ad3-42d4-841c-ca3d95c821dc" name="Rejected commit: Default (15)" comment="Rejected commit: Default (4)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/Admin/View/Goods/goods_number.html" />
+    </list>
+    <list id="25ed1763-919b-47e2-a8bd-7a755084c2af" name="Rejected commit: Default (16)" comment="Rejected commit: Default (4)" />
+    <list id="595d2c1c-23f2-4528-abb3-409df97aaea5" name="Rejected commit: Default (17)" comment="Rejected commit: Default (4)">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db_self.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/IndexController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/IndexController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Controller/MemberLevelController.class.php" afterPath="$PROJECT_DIR$/application/Admin/Controller/MemberLevelController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php" afterPath="$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Goods/add.html" afterPath="$PROJECT_DIR$/application/Admin/View/Goods/add.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Goods/edit.html" afterPath="$PROJECT_DIR$/application/Admin/View/Goods/edit.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Goods/lst.html" afterPath="$PROJECT_DIR$/application/Admin/View/Goods/lst.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Index/index.html" afterPath="$PROJECT_DIR$/application/Admin/View/Index/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Index/menu.html" afterPath="$PROJECT_DIR$/application/Admin/View/Index/menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/Index/top.html" afterPath="$PROJECT_DIR$/application/Admin/View/Index/top.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Admin/View/layout.html" afterPath="$PROJECT_DIR$/application/Admin/View/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/Common/Common/function.php" afterPath="$PROJECT_DIR$/application/Common/Common/function.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/shop_question.txt" afterPath="$PROJECT_DIR$/shop_question.txt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-14/599190863d677.jpg" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/599823665c9fe.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-14/thumb_1_599190863d677.jpg" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_1_599823665c9fe.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-14/thumb_3_599190863d677.jpg" afterPath="$PROJECT_DIR$/public/Uploads/Goods/2017-08-19/thumb_2_599823665c9fe.jpg" />
     </list>
     <ignored path="SHOP.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +658,13 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="SHOP">
@@ -172,57 +674,76 @@
       <favorite_root url="file://$PROJECT_DIR$/application/Admin/View/layout.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/application/Admin/Model/CategoryModel.class.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
       <favorite_root url="file://$PROJECT_DIR$/application/Admin/View/Goods/add.html" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/application/Admin/Controller/PrivilegeController.class.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/application/Gii/Table_configs/p39_privilege.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+      <favorite_root url="file://$PROJECT_DIR$/application/Gii/Table_configs/p39_admin.php" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoodsModel.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php">
+    <leaf>
+      <file leaf-file-name="IndexController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/Home/Controller/IndexController.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.6693227">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
               <folding>
-                <element signature="e#489#730#0#PHP" expanded="false" />
-                <element signature="e#9094#9195#0#PHP" expanded="false" />
+                <element signature="e#112#296#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/add.html">
+      <file leaf-file-name="layout.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/Home/View/Common/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.37037">
-              <caret line="143" column="20" selection-start-line="132" selection-start-column="12" selection-end-line="143" selection-end-column="20" />
+            <state vertical-scroll-proportion="-3.1111112">
+              <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/Home/View/Index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.6666665">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goods.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/Home/View/Index/goods.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8888888">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nav.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/Home/View/Common/nav.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-13.222222">
+              <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
               <folding>
-                <element signature="n#style#0;n#table#3;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#dd#0;n#dl#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edit.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/edit.html">
+      <file leaf-file-name="help.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/Home/View/Common/help.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21247563">
-              <caret line="179" column="60" selection-start-line="179" selection-start-column="60" selection-end-line="179" selection-end-column="60" />
-              <folding>
-                <element signature="n#style#0;n#table#3;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsController.class.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.814815">
-              <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-              <folding>
-                <element signature="e#209#467#0#PHP" expanded="true" />
-                <element signature="e#5223#5473#0#PHP" expanded="true" />
-                <element signature="e#5491#5942#0#PHP" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-47.444443">
+              <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -245,35 +766,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/application/Admin/Conf/config.php" />
-        <option value="$PROJECT_DIR$/ThinkPHP/Common/functions.php" />
-        <option value="$PROJECT_DIR$/application/Common/Common/function.php" />
-        <option value="$PROJECT_DIR$/application/Admin/View/Category/lst.html" />
-        <option value="$PROJECT_DIR$/application/Admin/View/Category/add.html" />
-        <option value="$PROJECT_DIR$/application/Admin/Controller/CategoryController.class.php" />
-        <option value="$PROJECT_DIR$/application/Admin/Model/CategoryModel.class.php" />
-        <option value="$PROJECT_DIR$/application/Admin/View/Category/edit.html" />
-        <option value="$PROJECT_DIR$/application/Admin/Controller/IndexController.class.php" />
-        <option value="$PROJECT_DIR$/application/Admin/Controller/MemberLevelController.class.php" />
-        <option value="$PROJECT_DIR$/application/Admin/View/Goods/lst.html" />
-        <option value="$PROJECT_DIR$/application/Admin/View/layout.html" />
-        <option value="$PROJECT_DIR$/application/Admin/View/Index/index.html" />
-        <option value="$PROJECT_DIR$/application/Admin/View/Index/top.html" />
-        <option value="$PROJECT_DIR$/application/Gii/Table_configs/p39_type.php" />
-        <option value="$PROJECT_DIR$/application/Admin/View/Index/menu.html" />
-        <option value="$PROJECT_DIR$/application/Gii/Table_configs/p39_attribute.php" />
-        <option value="$PROJECT_DIR$/application/Admin/View/Type/lst.html" />
         <option value="$PROJECT_DIR$/application/Admin/Model/AttributeModel.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/View/Attribute/lst.html" />
         <option value="$PROJECT_DIR$/application/Admin/View/Attribute/add.html" />
         <option value="$PROJECT_DIR$/application/Admin/View/Attribute/edit.html" />
         <option value="$PROJECT_DIR$/application/Admin/Model/TypeModel.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/View/Goods/add.html" />
-        <option value="$PROJECT_DIR$/application/Admin/Controller/AttributeController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Index/main.html" />
         <option value="$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php" />
-        <option value="$PROJECT_DIR$/shop_question.txt" />
-        <option value="$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php" />
         <option value="$PROJECT_DIR$/application/Admin/View/Goods/edit.html" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Goods/lst.html" />
+        <option value="$PROJECT_DIR$/application/Admin/View/layout.html" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Goods/goods_number.html" />
+        <option value="$PROJECT_DIR$/db_self.sql" />
+        <option value="$PROJECT_DIR$/application/Gii/Table_configs/p39_privilege.php" />
+        <option value="$PROJECT_DIR$/application/Gii/Table_configs/p39_role.php" />
+        <option value="$PROJECT_DIR$/application/Gii/Table_configs/p39_admin.php" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Role/lst.html" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Role/add.html" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Role/edit.html" />
+        <option value="$PROJECT_DIR$/application/Admin/Model/RoleModel.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Admin/edit.html" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Admin/add.html" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Admin/lst.html" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Login/login.html" />
+        <option value="$PROJECT_DIR$/application/Admin/Model/LoginModel.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/AdminController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/AttributeController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/BrandController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/CategoryController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/MemberLevelController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/PrivilegeController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/RoleController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/TypeController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/BaseController.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/Model/PrivilegeModel.class.php" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Index/menu.html" />
+        <option value="$PROJECT_DIR$/application/Admin/View/Index/top.html" />
+        <option value="$PROJECT_DIR$/application/Admin/Controller/LoginController.class.php" />
+        <option value="$PROJECT_DIR$/shop_question.txt" />
+        <option value="$PROJECT_DIR$/application/Admin/Model/AdminModel.class.php" />
+        <option value="$PROJECT_DIR$/application/Home/Common/layout.html" />
+        <option value="$PROJECT_DIR$/application/Admin/Conf/config.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/application/Home/View/Common/help.html" />
+        <option value="$PROJECT_DIR$/application/Home/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/application/Home/View/Common/layout.html" />
+        <option value="$PROJECT_DIR$/application/Home/View/Common/nav.html" />
+        <option value="$PROJECT_DIR$/application/Home/View/Index/goods.html" />
+        <option value="$PROJECT_DIR$/application/Home/Controller/IndexController.class.php" />
       </list>
     </option>
   </component>
@@ -287,9 +830,25 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="5" />
-    <option name="width" value="727" />
-    <option name="height" value="728" />
+    <option name="x" value="-7" />
+    <option name="width" value="681" />
+    <option name="height" value="742" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SQL</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -316,7 +875,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -349,9 +908,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SHOP" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,11 +985,12 @@
     <property name="last_opened_file_path" value="D:/Program Files/Git/bin/git.exe" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/SQL Dialects" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\WWW\SHOP\application\Admin\View\Category" />
       <recent name="D:\WWW\SHOP\application\Admin\Controller" />
+      <recent name="D:\WWW\SHOP\application\Admin\View\Category" />
       <recent name="D:\WWW\SHOP\application\Admin\Model" />
     </key>
   </component>
@@ -421,19 +1047,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="5" y="0" width="727" height="728" extended-state="0" />
+    <frame x="-7" y="0" width="681" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45127437" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6565809" sideWeight="0.4940171" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32337433" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3270548" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.4940171" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19062027" sideWeight="0.50598294" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3219178" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -461,381 +1087,392 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="16" />
+      <option name="time" value="24" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="78" column="19" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="99" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.48393196">
+          <caret line="165" column="0" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="106" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="27" selection-start-line="49" selection-start-column="27" selection-end-line="49" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="10" selection-start-line="92" selection-start-column="10" selection-end-line="92" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/lst.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/lst.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Common/Conf/config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Conf/convention.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.544592">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Controller.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Page.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33776093">
-          <caret line="41" column="52" selection-start-line="41" selection-start-column="52" selection-end-line="41" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Think.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="43.285713">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/App.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.11363637">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Category/lst.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/CategoryController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Model/CategoryModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="21" selection-start-line="73" selection-start-column="21" selection-end-line="73" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Category/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4400786">
-          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/IndexController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4347826">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/MemberLevelController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11909263">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Category/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.039697543">
-          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+        <state vertical-scroll-proportion="-39.666668">
+          <caret line="171" column="17" selection-start-line="171" selection-start-column="17" selection-end-line="171" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Admin/View/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11909263">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.27788278">
+          <caret line="7" column="110" selection-start-line="7" selection-start-column="110" selection-end-line="7" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/goods_number.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47022587">
+          <caret line="60" column="96" selection-start-line="60" selection-start-column="96" selection-end-line="60" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db_self.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48295453">
+          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Route.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Org/Util/Rbac.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28544423">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/lst.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-21.0">
-          <caret line="84" column="47" selection-start-line="84" selection-start-column="45" selection-end-line="84" selection-end-column="47" />
+        <state vertical-scroll-proportion="-0.7777778">
+          <caret line="83" column="15" selection-start-line="83" selection-start-column="15" selection-end-line="83" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Mode/Api/functions.php">
+    <entry file="file://$PROJECT_DIR$/application/Gii/Table_configs/p39_privilege.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34971645">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
+        <state vertical-scroll-proportion="-13.333333">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Common/functions.php">
+    <entry file="file://$PROJECT_DIR$/application/Gii/Table_configs/p39_role.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7466919">
-          <caret line="50" column="26" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+        <state vertical-scroll-proportion="-10.740741">
+          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Upload.class.php">
+    <entry file="file://$PROJECT_DIR$/application/Gii/Table_configs/p39_admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08695652">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.5185185">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Index/main.html">
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Role/lst.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4183267">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Role/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26494023">
+          <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Role/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="18" column="40" selection-start-line="14" selection-start-column="20" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Index/top.html">
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Admin/edit.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4034091">
-          <caret line="136" column="40" selection-start-line="136" selection-start-column="40" selection-end-line="136" selection-end-column="40" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Index/index.html">
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Admin/add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.222222">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Gii/Table_configs/p39_type.php">
+    <entry file="file://$PROJECT_DIR$/application/Admin/Model/RoleModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7613636">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="44" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Gii/Table_configs/p39_attribute.php">
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Admin/lst.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71590906">
-          <caret line="54" column="60" selection-start-line="54" selection-start-column="60" selection-end-line="54" selection-end-column="60" />
+        <state vertical-scroll-proportion="-11.037037">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Conf/config.php">
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Verify.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35795453">
-          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+        <state vertical-scroll-proportion="-0.1436673">
+          <caret line="84" column="20" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Common/Common/function.php">
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Login/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3958334">
-          <caret line="72" column="56" selection-start-line="72" selection-start-column="56" selection-end-line="72" selection-end-column="56" />
+        <state vertical-scroll-proportion="-6.2222223">
+          <caret line="32" column="60" selection-start-line="32" selection-start-column="60" selection-end-line="32" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Model/LoginModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.555555">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5555556">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/AttributeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5555556">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/BrandController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5555556">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/CategoryController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7777778">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1111112">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5555556">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/MemberLevelController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.7777778">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/PrivilegeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5555556">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/RoleController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5555556">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Admin/Controller/TypeController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-2.3333333">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Admin/View/Index/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="130" column="118" selection-start-line="130" selection-start-column="118" selection-end-line="130" selection-end-column="118" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Attribute/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="127" selection-start-line="22" selection-start-column="127" selection-end-line="22" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Attribute/lst.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Model/TypeModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="42" column="60" selection-start-line="42" selection-start-column="60" selection-end-line="42" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Type/lst.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Model/AttributeModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="21" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Attribute/add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="40" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/AttributeController.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28767124">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Think/Model.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3175803">
-          <caret line="477" column="23" selection-start-line="477" selection-start-column="23" selection-end-line="477" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Model/GoodsModel.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="146" column="16" selection-start-line="146" selection-start-column="16" selection-end-line="146" selection-end-column="16" />
-          <folding>
-            <element signature="e#489#730#0#PHP" expanded="false" />
-            <element signature="e#9094#9195#0#PHP" expanded="false" />
-          </folding>
+          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/shop_question.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4532374">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.39568347">
+          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/LoginController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Model/AdminModel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8406374">
+          <caret line="134" column="22" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/View/Index/top.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44621515">
+          <caret line="129" column="47" selection-start-line="129" selection-start-column="47" selection-end-line="129" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Home/View/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/add.html">
+    <entry file="file://$PROJECT_DIR$/application/Admin/Model/PrivilegeModel.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.37037">
-          <caret line="143" column="20" selection-start-line="132" selection-start-column="12" selection-end-line="143" selection-end-column="20" />
+        <state vertical-scroll-proportion="-10.851851">
+          <caret line="65" column="29" selection-start-line="65" selection-start-column="20" selection-end-line="65" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#table#3;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#321#747#0#PHP" expanded="false" />
+            <element signature="e#1928#1960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/GoodsController.class.php">
+    <entry file="file://$PROJECT_DIR$/application/Admin/Controller/BaseController.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.814815">
-          <caret line="164" column="0" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5236295">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Home/Common/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4763705">
+          <caret line="12" column="89" selection-start-line="12" selection-start-column="89" selection-end-line="12" selection-end-column="89" />
           <folding>
-            <element signature="e#209#467#0#PHP" expanded="true" />
-            <element signature="e#5223#5473#0#PHP" expanded="true" />
-            <element signature="e#5491#5942#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Admin/View/Goods/edit.html">
+    <entry file="file://$PROJECT_DIR$/application/Home/Conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21247563">
-          <caret line="179" column="60" selection-start-line="179" selection-start-column="60" selection-end-line="179" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Common/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2230624">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Admin/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11909263">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Common/Conf/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59546316">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46015936">
+          <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Home/View/Common/help.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-47.444443">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Home/View/Index/goods.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8888888">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Home/View/Common/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.1111112">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Home/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Home/View/Common/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.222222">
+          <caret line="98" column="37" selection-start-line="98" selection-start-column="37" selection-end-line="98" selection-end-column="37" />
           <folding>
-            <element signature="n#style#0;n#table#3;n#form#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#dd#0;n#dl#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/Home/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6693227">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="e#112#296#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

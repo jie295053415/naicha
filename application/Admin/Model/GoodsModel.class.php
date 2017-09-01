@@ -150,6 +150,31 @@ class GoodsModel extends Model
         //var_dump($option);exit;
 		$id = $option['where']['id'];  //要修改的商品ID
 
+        /*********修改商品属性*********/
+        $gaid = I('post.goods_attr_id');
+        $attrValue = I('post.attr_value');
+        $gaModel = D('goods_attr');
+        $_i = 0; //循环次数
+        foreach($attrValue as $k => $v){
+            foreach ($v as $k1 => $v1) {
+                //找这个属性值是否有id
+                if($gaid[$_i] == ''){
+                    //空值就是要添加新的属性值
+                    $gaModel->add(array(
+                        'goods_id' => $id,
+                        'attr_id' => $k,
+                        'attr_value' => $v1,
+                    ));
+                }else{
+                    $gaModel->where(array(
+                        'id' => array('eq',$gaid[$_i]),
+                    ))->setField('attr_value',$v1);
+                }
+                $_i++;
+            }
+        }
+
+
         /*********处理扩展分类*********/
         $ecid = I('post.ext_cat_id');
         $gcModel = D('goods_cat');

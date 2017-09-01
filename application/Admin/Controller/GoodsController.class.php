@@ -7,10 +7,96 @@
  */
 namespace Admin\Controller;
 
-use Think\Controller;
 
-class GoodsController extends Controller
+
+class GoodsController extends BaseController
 {
+    //
+    public function goods_number(){
+
+        //接收商品ID
+        $id = I('get.id');
+        $gnModel = D('goods_number');
+
+        //处理表单
+        if(IS_POST){
+            //先删除原库存
+            $gnModel->where(array(
+                'goods_id' => array('eq',$id),
+            ))->delete();
+            $gaid = I('post.goods_attr_id');
+            $gn = I('post.goods_number');
+
+            //var_dump($gaid);echo '<hr/>';
+            //先计算商品属性ID和库存量的比例
+            $gaidCount = count($gaid);
+            $gnCount = count($gn);
+            $rate = $gaidCount/$gnCount;
+            //循环库存量
+            $_i = 0; //取第几个商品属性ID
+            foreach ($gn as $k => $v){
+                $_goodsAttrId = array();  //把下面取出来的ID放这里
+                //后开从商品属性ID数组中取出$rate个，循环一次取一个
+                for($i = 0; $i < $rate; $i++){
+                    $_goodsAttrId[] = $gaid[$_i];
+                    $_i++;
+                }
+                sort($_goodsAttrId,SORT_NUMERIC); // 以数字的形式排序
+                //把取出来的商品属性ID转换成字符串
+                $_goodsAttrId = (string)implode(',',$_goodsAttrId);
+                $gnModel->add(array(
+                    'goods_id' => $id,
+                    'goods_attr_id' => $_goodsAttrId,
+                    'goods_number' => $v,
+                ));
+            }
+        }
+
+        //根据商品ID取出这件商品所有可选属性的值
+        $gaModel = D('goods_attr');
+        $gaData = $gaModel->alias('a')
+            ->join('left join __ATTRIBUTE__ b on a.attr_id=b.id')
+            ->field('a.*,b.attr_name')
+            ->where(array(
+                'a.goods_id' => array('eq',$id),
+                'b.attr_type' => array('eq','可选'),
+            ))->select();
+        //整理这个二维数组：转化为三维：把属性相同的放在一起
+        $_gaData = array();
+        foreach($gaData as $k => $v){
+            $_gaData[$v['attr_name']][] = $v;
+        }
+
+        //先取出这件商品已经设置的库存量
+        $gnData = $gnModel->where(array(
+            'goods_id' => $id,
+        ))->select();
+
+        //显示页面
+        $this->assign(array(
+            'gaData' => $_gaData,
+            'gnData' => $gnData,
+            '_page_title' => '库存量',
+            '_page_btn_name' => '返回商品列表',
+            '_page_btn_link' => U('lst'),
+        ));
+        //显示页面
+        $this->display();
+    }
+
+    //处理删除属性
+    public function ajaxDelAttr(){
+        $goodsId = addslashes(I('get.goods_id'));
+        $gaid = addslashes(I('get.gaid'));
+        $gaModel = D('goods_attr');
+        $gaModel->delete($gaid);
+        //删除相关库存量
+        $gnModel = D('goods_number');
+        $gnModel->where(array(
+            'goods_id' => array('EXP',"=$goodsId and FINd_IN_SET($gaid,attr_list)"),
+        ))->delete();
+    }
+
     //处理获取属性的ajax请求
     public function ajaxGetAttr(){
         $typeId =I('get.type_id');
@@ -147,13 +233,13 @@ class GoodsController extends Controller
             'goods_id' => array('eq',$id),
         ))->select();
 
-        //取出这间商品已经设置了的属性值
-        $gaModel = D('goods_attr');
-        $gaData = $gaModel->alias('a')
-            ->field('a.*,b.attr_name,b.attr_type,b.attr_option_values')
-            ->join('left join __ATTRIBUTE__ b on a.attr_id=b.id')
+        //取出当前类型下所有的属性
+        $attrModel = D('Attribute');
+        $attrData = $attrModel->alias('a')
+            ->field('a.id attr_id,a.attr_name,a.attr_type,a.attr_option_values,b.attr_value,b.id')
+            ->join('left join __GOODS_ATTR__ B on (a.id=b.attr_id and b.goods_id='.$id.')')
             ->where(array(
-                'a.goods_id' => array('eq',$id)
+                'a.type_id' => array('eq',$data['type_id'])
             ))->select();
 
         /*
@@ -171,7 +257,7 @@ class GoodsController extends Controller
             'mlData' => $mlData,
             'gpData' => $gpData,
             'gcData' => $gcData,
-            'gaData' => $gaData,
+            'gaData' => $attrData,
             '_page_title' => '修改商品',
             '_page_btn_name' => '商品列表',
             '_page_btn_link' => U('lst'),
