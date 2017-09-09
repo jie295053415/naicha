@@ -1,37 +1,48 @@
+
+
 <!-- 引入布局文件 -->
 <layout name="layout"/>
 
 <div class="main-div">
-    <form action="__APP__/Category/edit" method="POST" name="main_form">
+    <form action="__SELF__" method="POST" name="main_form">
+        <input type="hidden" name="id" value="<?php echo $data['id']; ?>" />
         <table width="100%" align="center" cellpadding="3" cellspacing="1">
             <tr>
                 <td class="label">上级分类：</td>
                 <td>
                     <select name="parent_id">
                         <option value="0">顶级分类</option>
-                        <?php foreach($catData as $v){
+                        <?php foreach($catData as $v):
+                            //跳过当前分类和子分类
                             if($v['id'] == $data['id'] || in_array($v['id'],$children)){
                                 continue;
                             }
-                            if($v['id'] ==$data['id']){
-                                $select = 'selected=selected';
+                            if($v['id'] == $data['parent_id']){
+                                $select = 'selected="selected"';
                             }else{
                                 $select = '';
                             }
                         ?>
-                        <option <?php echo $select; ?> value="<?php echo $v['id'];?>" >
-                            <?php echo str_repeat('-',8*$v['level']).$v['cat_name']; ?>
-                        </option>
-                        <?php } ?>
+                        <option <?php echo $select; ?> value="<?php echo $v['id']; ?>"><?php echo str_repeat('-', 8*$v['level']) . $v['cat_name']; ?></option>
+
+                        <?php endforeach; ?>
                     </select>
                 </td>
             </tr>
             <tr>
-                <td>分类名称：</td>
+                <td class="label">分类名称：</td>
                 <td>
                     <input title="" name="cat_name" type="text" size="60" value="<?php echo $data['cat_name']?>"/>
                 </td>
             </tr>
+            <tr>
+                <td class="label">是否推荐到楼层：</td>
+                <td>
+                    <input title="" type="radio" name="is_floor" value="是" <?php if($data['is_floor']=='是'){echo 'checked="checked"';} ?> /> 是
+                    <input title="" type="radio" name="is_floor" value="否" <?php if($data['is_floor']=='否'){echo 'checked="checked"';} ?> /> 否
+                </td>
+            </tr>
+
             <tr>
                 <td colspan="99" align="center">
                     <input type="submit" value=" 确定 " class="button"/>

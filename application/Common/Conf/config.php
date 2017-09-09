@@ -13,5 +13,14 @@ return array(
     'DB_FIELDS_CACHE'       =>  false,        // 启用字段缓存
     //如果数据库类型要采用'pdo'的话,必须配置一下设置,还要把'DB_HOST','DB_NAME'关掉
     'DB_DSN'                =>'mysql:host=localhost;dbname=php39;charset=utf8',
-	
+
+    /*
+     * 图片相关的配置
+     */
+    'IMAGE_CONFIG' => array(
+        'maxSize'  => 1024*1024,
+        'exts'     => array('jpg', 'gif', 'png', 'jpeg'),
+        'rootPath' => './Public/Uploads/',    //图片保存的路径
+        'viewPath' => __ROOT__.'/Public/Uploads/',     //图片显示的路径
+    ),
 );

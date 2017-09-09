@@ -2,7 +2,7 @@
 <layout name="layout"/>
 
 <div class="main-div">
-    <form action="__APP__/Category/add" method="POST" name="main_form">
+    <form action="__SELF__" method="POST" name="main_form">
         <table width="100%" align="center" cellpadding="3" cellspacing="1">
             <tr>
                 <td class="label">上级分类：</td>
@@ -18,17 +18,26 @@
                 </td>
             </tr>
             <tr>
-                <td>分类名称：</td>
+                <td class="label">分类名称：</td>
                 <td>
                     <input title="" name="cat_name" type="text" size="60"/>
                 </td>
             </tr>
+            <tr>
+                <td class="label">是否推荐到楼层：</td>
+                <td>
+                    <input title="" type="radio" name="is_floor" value="是" /> 是
+                    <input title="" type="radio" name="is_floor" value="否" checked="checked" /> 否
+                </td>
+            </tr>
+
             <tr>
                 <td colspan="99" align="center">
                     <input type="submit" value=" 确定 " class="button"/>
                     <input type="reset" value=" 重置 " class="button"/>
                 </td>
             </tr>
+
         </table>
     </form>
 </div>

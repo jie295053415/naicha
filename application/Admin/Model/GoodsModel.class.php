@@ -6,16 +6,15 @@
  * Time: 9:00
  */
 namespace Admin\Model;
-
 use Think\Model;
 
 class GoodsModel extends Model
 {
 
     //添加是调用create方法允许接收的字段
-    protected $insertFields = 'goods_name,market_price,shop_price,is_on_sale,goods_desc,brand_id,cat_id,type_id';
+    protected $insertFields = 'goods_name,market_price,shop_price,is_on_sale,goods_desc,brand_id,cat_id,type_id,promote_price,promote_start_date,promote_end_date,is_new,is_best,is_hot,sort_num,is_floor';
     //修改商品时调用create方法允许接收的字段
-	protected $updateFields = 'id,goods_name,market_price,shop_price,is_on_sale,goods_desc,brand_id,cat_id,type_id';
+	protected $updateFields = 'id,goods_name,market_price,shop_price,is_on_sale,goods_desc,brand_id,cat_id,type_id,promote_price,promote_start_date,promote_end_date,is_new,is_best,is_hot,sort_num,is_floor';
     //定义验证规则
     protected $_validate = array(
         array('cat_id', 'require', '必须选择主分类!', 1),
@@ -53,6 +52,8 @@ class GoodsModel extends Model
         $data['addtime'] = date('Y-m-d H:i:s', time());
         //过滤该字段
         $data['goods_desc'] = removeXSS($_POST['goods_desc']);
+
+
 
     }
 	
@@ -141,7 +142,7 @@ class GoodsModel extends Model
 				));
 			}
 		}
-		
+
 	}
 	
 	//修改商品前的钩子函数
@@ -149,6 +150,7 @@ class GoodsModel extends Model
     {
         //var_dump($option);exit;
 		$id = $option['where']['id'];  //要修改的商品ID
+
 
         /*********修改商品属性*********/
         $gaid = I('post.goods_attr_id');
@@ -326,12 +328,10 @@ class GoodsModel extends Model
      * 通过分类查找商品id
      * @param $catId      //分类ID
      * @return array $id  //商品ID
-     *
      */
-
     public function getGoodsIdByCatId($catId){
         //通过主分类查找所有的子分类
-        $catModel = D('category');
+        $catModel = D('Admin/Category');
         $children = $catModel->getChildren($catId);
         //和子分类一起
         $children[] = $catId;
@@ -459,8 +459,40 @@ class GoodsModel extends Model
         );
 
     }
-	
-	
-	
+	/*
+	 * 获取疯狂抢购商品
+	 * @param number $limit
+	 * @return array
+	 */
+	public function getPromoteGoods($limit=5)
+    {
+        $today = date('Y-m-d H:i:s',time());
+        return $this->field('id,goods_name,mid_logo,promote_price')
+            ->where(array(
+            'is_on_sale' => array('eq','是'),
+            'promote_price' => array('gt', 0),
+            'promote_start_date' =>array('elt',$today),
+            'promote_end_date' =>array('egt',$today),
+        ))->limit($limit)
+        ->order('sort_num asc')->select();
+    }
+    /*
+     * 获取三种推荐商品
+     * @param string $recType : is_hot|is_best|is_new
+     * @param number $limit
+     * @return array
+     */
+    public function getRecGoods($recType,$limit=5)
+    {
+        $today = date('Y-m-d H:i:s',time());
+        return $this->field('id,goods_name,mid_logo,shop_price')
+            ->where(array(
+                'is_on_sale' => array('eq','是'),
+                "$recType" => array('eq','是'),
+
+            ))->limit($limit)
+            ->order('sort_num asc')->select();
+    }
+
 }
 

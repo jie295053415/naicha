@@ -149,7 +149,9 @@ class GoodsController extends BaseController
              * 第二个参数:表单的类型,当前是添加还是修改的表单,1:添加  2:修改
              * $_POST:表单中原始的数据, I('post.'):过滤之后的$_POST数据,过滤XSS攻击
              */
-            if ($model->create(I('post.'), 1)) {
+            if ($model->create(I('post.'), 1))
+            {
+
                 //插入到数据库中
                 if ($model->add()) {//在add()里又先调用了_before_insert方法
                     //显示成功信息并等待1秒后重定向
@@ -158,11 +160,14 @@ class GoodsController extends BaseController
                 }
             }
             //如果走到这 说明上面失败了在这里除了失败请求
+
             //从模型中取出失败的原因
             $error = $model->getError();
             //由控制器显示错误信息,并在3秒后调回上一个页面
             $this->error($error);
         }
+
+
         //取出所有的会员级别
         $mlData = D('member_level')->select();
         //取出所有的分类

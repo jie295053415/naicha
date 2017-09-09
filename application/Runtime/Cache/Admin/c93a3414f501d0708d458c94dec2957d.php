@@ -21,7 +21,7 @@
 
 <!-- 列表 -->
 <div class="list-div" id="listDiv">
-    <form method="post" action="/SHOP/index.php/Admin/Goods/goods_number/id/4.html">
+    <form method="post" action="/SHOP/index.php/Admin/Goods/goods_number/id/10.html">
         <table cellpadding="3" cellspacing="1">
             <tr>
                 <!-- 循环输出属性 -->

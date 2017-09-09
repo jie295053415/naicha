@@ -45,6 +45,7 @@ class LoginController extends Controller
             'fontSize' => 30,     //验证码字体大小
             'length' => 2,        //验证码位数
             'useNoise' => TRUE,   //关闭验证码杂点
+            'codeSet' => '1234567890',
         ));
         $Verify->entry();
     }

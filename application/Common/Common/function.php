@@ -120,10 +120,12 @@ function uploadOne($imgName, $dirName, $thumb = array())
 //显示图片的自定义函数
 function showImage($url,$width = '',$height = ''){
     $ic = C('IMAGE_CONFIG');
-    if($width){
+    if($width)
+    {
         $width = "width='$width'";
     }
-    if($height){
+    if($height)
+    {
         $height = "height='$height'";
     }
     echo "<img $width $height src='{$ic['viewPath']}$url' />";

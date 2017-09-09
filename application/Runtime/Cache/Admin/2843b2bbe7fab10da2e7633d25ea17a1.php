@@ -116,7 +116,7 @@
 <body>
 <div id="header-div">
     <div id="logo-div" style="bgcolor:#000000;">
-        <img src="/SHOP/Public/Admin/Images/ecshop_logo.gif" alt="ECSHOP - power for e-commerce" />
+        <img src="" alt="" />
     </div>
     <div id="submenu-div">
         <ul>

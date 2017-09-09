@@ -11,7 +11,7 @@
     <table cellspacing="0" cellpadding="0" style="margin-top:100px" align="center">
         <tr>
             <td>
-                <img src="/SHOP/Public/Admin/Images/login.png" width="178" height="256" border="0" alt="ECSHOP" />
+
             </td>
             <td style="padding-left: 50px">
                 <table>

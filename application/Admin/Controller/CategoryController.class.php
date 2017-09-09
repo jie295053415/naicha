@@ -31,7 +31,7 @@ class CategoryController extends BaseController
     //添加分类
     public function add()
     {
-        //var_dump($_POST);exit;
+
         $model = D('category');
         //判断用户是否提交表单
         if (IS_POST) {
@@ -43,8 +43,9 @@ class CategoryController extends BaseController
              * $_POST:表单中原始的数据, I('post.'):过滤之后的$_POST数据,过滤XSS攻击
              */
             if ($model->create(I('post.'), 1)) {
+                //echo '<pre>';var_dump($data);exit;
                 //插入到数据库中
-                if ($id = $model->add()) {//在add()里又先调用了_before_insert方法
+                if ($model->add()) {
                     //显示成功信息并等待1秒后重定向
                     $this->success('操作成功!', U('lst?p='.I('get.p')));
                     exit;
@@ -72,21 +73,21 @@ class CategoryController extends BaseController
     //修改分类
     public function edit(){
         $id = I('get.id');
-        $model = D('category');
-
+        $model = D('Category');
         if(IS_POST){
-            if($model->create(I('post.'),2)){
+            if($model->create(I('post.'), 2)){
                 if($model->save() !== FALSE){
                     $this->success('修改成功！',U('lst'));
+                    exit;
                 }
             }
             $this->error($model->getError());
         }
         $data = $model->find($id);
-        $children = $model->getChildren($id);
         //获取所有分类制作下拉框
         $catData = $model->getTree();
-
+        //取出当前分类的子分类
+        $children = $model->getChildren($id);
 
         //显示页面
         $this->assign(array(

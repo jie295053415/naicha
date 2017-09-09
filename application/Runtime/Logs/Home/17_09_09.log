@@ -1,0 +1,842 @@
+[ 2017-09-09T21:35:10+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000594s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001478s ]
+SQL: DESCRIBE p39_category [ RunTime:0.009991s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.000759s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.001091s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.000428s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000253s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000339s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000495s ]
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026896s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026986s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001628s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001823s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000927s ]
+
+[ 2017-09-09T21:35:10+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000809s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+SQL: DESCRIBE p39_category [ RunTime:0.010096s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\WWW\SHOP\application\Home\Controller\IndexController.class.php 第 20 行.
+SQL: DESCRIBE p39_goods [ RunTime:0.001334s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('7') AND `is_on_sale` = '是' ORDER BY FIELD(id,7)  [ RunTime:0.000314s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('7') AND `is_on_sale` = '是' ORDER BY FIELD(id,7) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2017-09-09T21:35:27+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+SQL: DESCRIBE p39_category [ RunTime:0.010224s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.001338s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.001910s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.000386s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 22 LIMIT 1   [ RunTime:0.000273s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000467s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000493s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000314s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000447s ]
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018655s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2017-09-09T21:35:27+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000055s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001189s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001320s ]
+SQL: DESCRIBE p39_category [ RunTime:0.000896s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\WWW\SHOP\application\Home\Controller\IndexController.class.php 第 20 行.
+SQL: DESCRIBE p39_goods [ RunTime:0.001338s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.000373s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-09-09T21:35:34+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-09T21:35:34+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001499s ]
+SQL: DESCRIBE p39_category [ RunTime:0.008922s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\WWW\SHOP\application\Home\Controller\IndexController.class.php 第 20 行.
+SQL: DESCRIBE p39_goods [ RunTime:0.000984s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.000322s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000690s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000770s ]
+
+[ 2017-09-09T21:37:41+08:00 ] ::1 /SHOP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000940s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: DESCRIBE p39_category [ RunTime:0.010828s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.001096s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2017-09-09 21:37:40' AND `promote_end_date` >= '2017-09-09 21:37:40' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.001047s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.000607s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.000709s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.000593s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = 0 AND `is_floor` = '是'  [ RunTime:0.000433s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.000339s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('16','22','28','17','18','19','20','1')  [ RunTime:0.058943s ]
+SQL: DESCRIBE p39_goods_cat [ RunTime:0.022628s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('16','22','28','17','18','19','20','1')  [ RunTime:0.158991s ]
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a left join p39_brand b on a.brand_id=b.id  WHERE a.id IN ('13','7','8','14','9','10','11','12','52','53','54') AND a.brand_id <> 0 LIMIT 9   [ RunTime:0.413582s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '否'  [ RunTime:0.014886s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '1' AND `is_floor` = '是'  [ RunTime:0.000409s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.000608s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('22','28','16')  [ RunTime:0.000765s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('22','28','16')  [ RunTime:0.017175s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_floor` = '是' AND `id` IN ('7','8','14','10','13','52','54') ORDER BY sort_num ASC LIMIT 8   [ RunTime:0.024884s ]
+SQL: SELECT * FROM `p39_category`  [ RunTime:0.000341s ]
+SQL: SELECT `id` FROM `p39_goods` WHERE `cat_id` IN ('21','2')  [ RunTime:0.000295s ]
+SQL: SELECT DISTINCT goods_id id FROM `p39_goods_cat` WHERE `cat_id` IN ('21','2')  [ RunTime:0.008276s ]
+SQL: SELECT DISTINCT brand_id,b.brand_name,b.logo FROM p39_goods a left join p39_brand b on a.brand_id=b.id  WHERE a.id IN ('52') AND a.brand_id <> 0 LIMIT 9   [ RunTime:0.000632s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '否'  [ RunTime:0.000463s ]
+SQL: SELECT * FROM `p39_category` WHERE `parent_id` = '2' AND `is_floor` = '是'  [ RunTime:0.000384s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Admin\Model\CategoryModel.class.php 第 177 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000208s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000318s ]
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 483 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 489 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 517 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022689s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013318s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013449s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001156s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+
+[ 2017-09-09T21:37:44+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-09T21:37:44+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: DESCRIBE p39_category [ RunTime:0.001737s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\WWW\SHOP\application\Home\Controller\IndexController.class.php 第 20 行.
+SQL: DESCRIBE p39_goods [ RunTime:0.004102s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.000255s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000832s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2017-09-09T21:37:45+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-09T21:37:45+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001630s ]
+SQL: DESCRIBE p39_category [ RunTime:0.004839s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\WWW\SHOP\application\Home\Controller\IndexController.class.php 第 20 行.
+SQL: DESCRIBE p39_goods [ RunTime:0.001424s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.000401s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001535s ]
+
+[ 2017-09-09T21:38:04+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000527s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: DESCRIBE p39_category [ RunTime:0.009485s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.000895s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000473s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.000447s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 22 LIMIT 1   [ RunTime:0.000331s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000256s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000270s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000367s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000565s ]
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026566s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001190s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001645s ]
+
+[ 2017-09-09T21:38:05+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000873s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001129s ]
+SQL: DESCRIBE p39_category [ RunTime:0.000848s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\WWW\SHOP\application\Home\Controller\IndexController.class.php 第 20 行.
+SQL: DESCRIBE p39_goods [ RunTime:0.001359s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.000414s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000892s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001033s ]
+
+[ 2017-09-09T21:38:08+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-09T21:38:09+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: DESCRIBE p39_category [ RunTime:0.008576s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\WWW\SHOP\application\Home\Controller\IndexController.class.php 第 20 行.
+SQL: DESCRIBE p39_goods [ RunTime:0.000877s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.000184s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2017-09-09T21:41:31+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-09T21:41:31+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001145s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001332s ]
+SQL: DESCRIBE p39_category [ RunTime:0.010610s ]
+NOTIC: [8] Use of undefined constant time - assumed 'time' D:\WWW\SHOP\application\Home\Controller\IndexController.class.php 第 20 行.
+SQL: DESCRIBE p39_goods [ RunTime:0.001290s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.000331s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001038s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001177s ]
+
+[ 2017-09-09T21:44:08+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-09T21:44:08+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: DESCRIBE p39_category [ RunTime:0.009400s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.000906s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.000477s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001686s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001860s ]
+
+[ 2017-09-09T21:44:22+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000924s ]
+SQL: DESCRIBE p39_category [ RunTime:0.009147s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.002453s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000802s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.000723s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 22 LIMIT 1   [ RunTime:0.000315s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000261s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000266s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000326s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000464s ]
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014817s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.040274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.040405s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000994s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2017-09-09T21:44:23+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000876s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000598s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+SQL: DESCRIBE p39_category [ RunTime:0.000692s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.001292s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.000369s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001081s ]
+
+[ 2017-09-09T21:44:25+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000399s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-09T21:44:25+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000451s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: DESCRIBE p39_category [ RunTime:0.000731s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.000936s ]
+SQL: SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.000285s ]
+ERR: 1054:Unknown column 'in' in 'field list'
+ [ SQL语句 ] : SELECT `in`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14) 
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000618s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2017-09-09T21:49:23+08:00 ] ::1 /SHOP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002384s ]
+SQL: DESCRIBE p39_category [ RunTime:0.061793s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.001546s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`promote_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `promote_price` > 0 AND `promote_start_date` <= '2017-09-09 21:49:23' AND `promote_end_date` >= '2017-09-09 21:49:23' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.018844s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_hot` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.000421s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_best` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.000393s ]
+SQL: SELECT `id`,`goods_name`,`mid_logo`,`shop_price` FROM `p39_goods` WHERE `is_on_sale` = '是' AND `is_new` = '是' ORDER BY sort_num asc LIMIT 5   [ RunTime:0.000378s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000372s ]
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 161 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 156 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 483 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 489 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0e9f9964b50249c273d1dbef3ee7dd51.php 第 517 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076662s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076818s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003626s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002081s ]
+
+[ 2017-09-09T21:49:27+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000087s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000648s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+SQL: DESCRIBE p39_category [ RunTime:0.006646s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.000934s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 14 LIMIT 1   [ RunTime:0.000464s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 28 LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 22 LIMIT 1   [ RunTime:0.000259s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000270s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000443s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000630s ]
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014775s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014863s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001076s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000720s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000862s ]
+
+[ 2017-09-09T21:49:27+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/14.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001023s ]
+SQL: DESCRIBE p39_category [ RunTime:0.001243s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.000885s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('14') AND `is_on_sale` = '是' ORDER BY FIELD(id,14)  [ RunTime:0.101431s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000961s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2017-09-09T21:49:34+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000052s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000941s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001981s ]
+SQL: DESCRIBE p39_category [ RunTime:0.000906s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.000954s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 12 LIMIT 1   [ RunTime:0.000361s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 11 LIMIT 1   [ RunTime:0.000373s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000298s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000402s ]
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015554s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002727s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000843s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000995s ]
+
+[ 2017-09-09T21:49:35+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000610s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002068s ]
+SQL: DESCRIBE p39_category [ RunTime:0.000826s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.001112s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('12','14') AND `is_on_sale` = '是' ORDER BY FIELD(id,12,14)  [ RunTime:0.044161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000675s ]
+
+[ 2017-09-09T21:51:18+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000092s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001587s ]
+INFO: [ app_begin ] --START--
+
+[ 2017-09-09T21:51:19+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/12.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000117s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001953s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001012s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: DESCRIBE p39_category [ RunTime:0.005809s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.001294s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('12','14') AND `is_on_sale` = '是' ORDER BY FIELD(id,12,14)  [ RunTime:0.000798s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2017-09-09T21:51:23+08:00 ] ::1 /SHOP/index.php/Home/Index/goods/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: DESCRIBE p39_category [ RunTime:0.002882s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.001283s ]
+SQL: SELECT * FROM `p39_goods` WHERE `id` = 7 LIMIT 1   [ RunTime:0.000469s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 16 LIMIT 1   [ RunTime:0.000221s ]
+SQL: SELECT `id`,`cat_name`,`parent_id` FROM `p39_category` WHERE `id` = 1 LIMIT 1   [ RunTime:0.001157s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000308s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000420s ]
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 175 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [8] Undefined index: children D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\WWW\SHOP\application\Runtime\Cache\Home\0ea05e7ef5c07d20cb974e1f3e472792.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016823s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016929s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001653s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000936s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001113s ]
+
+[ 2017-09-09T21:51:23+08:00 ] ::1 /SHOP/index.php/Home/Index/displayHistory/id/7.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000743s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: DESCRIBE p39_category [ RunTime:0.003672s ]
+SQL: DESCRIBE p39_goods [ RunTime:0.001530s ]
+SQL: SELECT `id`,`mid_logo`,`goods_name` FROM `p39_goods` WHERE `id` IN ('7','12','14') AND `is_on_sale` = '是' ORDER BY FIELD(id,7,12,14)  [ RunTime:0.026987s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002231s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002793s ]
+
+[ 2017-09-09T21:51:34+08:00 ] ::1 /SHOP/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_begin ] --START--
+

@@ -9,7 +9,7 @@
                 <th>分类名称</th>
                 <th>操作</th>
             </tr>
-            <?php foreach($data as $k=>$v){?>
+            <?php foreach($data as $k=>$v): ?>
             <tr class="tron">
                 <td><?php echo str_repeat('-',8*$v['level']).$v['cat_name'];?></td>
                 <td align="center">
@@ -17,7 +17,7 @@
                     <a onclick="return confirm('确定要删除吗？');" href="<?php echo U('delete?id='.$v['id']); ?>">删除</a>
                 </td>
             </tr>
-            <?php }?>
+            <?php endforeach; ?>
         </table>
 
         <!-- 分页开始 -->

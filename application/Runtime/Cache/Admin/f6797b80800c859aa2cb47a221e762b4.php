@@ -130,7 +130,6 @@
 
 
 <!-- 引入时间插件 -->
-
 <script type="text/javascript" src="/SHOP/Public/umeditor1_2_2-utf8-php/third-party/jquery.min.js"></script>
 <!--<script type="text/javascript" src="/SHOP/Public/Admin/Js/jquery-1.10.0.min.js"></script> -->
 <link href="/SHOP/Public/datetimepicker/jquery-ui-1.9.2.custom.min.css" rel="stylesheet" type="text/css" />
